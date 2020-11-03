@@ -3,6 +3,7 @@ import random
 
 def read_file(file_name):
     file = open(file_name,'r')
+    file.close()
     return file.readlines()
 
 
